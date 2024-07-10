@@ -1,8 +1,8 @@
 # Jenkins Declarative Pipeline in YAML format
 
 pipeline:
-  agent:any
-    label: 'your-agent-label'  # Replace with your Jenkins agent label or 'any' for any available agent
+  agent:
+    label: 'any'  # Replace with your Jenkins agent label or 'any' for any available agent
 
   stages:
     - stage: Checkout
